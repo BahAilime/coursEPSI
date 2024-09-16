@@ -1,0 +1,55 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.icon {
+  stroke: var(--ifm-color-primary-dark);
+  fill: var(--ifm-color-primary-dark);
+}
+
+.icon.completed {
+  stroke: var(--ifm-color-primary-darker);
+  fill: var(--ifm-color-primary-darker);
+}
+
+.icon.current {
+  stroke: var(--ifm-color-primary-darkest);
+  fill: var(--ifm-color-primary-darkest);
+}
+
+.line {
+  width: 2px;
+  height: 40px;
+  background-color: #ccc;
+  margin-top: 4px;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.date {
+  font-size: 14px;
+  color: #666;
+  margin: 4px 0 0;
+}
