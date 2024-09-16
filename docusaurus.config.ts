@@ -118,11 +118,11 @@ const config: Config = {
 					items: [
 						{
 							label: "11111",
-							to: "1111",
+							to: "docs",
 						},
 						{
 							label: "aaaa",
-							to: "aaaa",
+							to: "docs",
 						},
 					],
 				},
@@ -131,11 +131,11 @@ const config: Config = {
 					items: [
 						{
 							label: "11111",
-							to: "1111",
+							to: "docs",
 						},
 						{
 							label: "aaaa",
-							to: "aaaa",
+							to: "docs",
 						},
 					],
 				},
@@ -144,11 +144,11 @@ const config: Config = {
 					items: [
 						{
 							label: "11111",
-							to: "1111",
+							to: "docs",
 						},
 						{
 							label: "aaaa",
-							to: "aaaa",
+							to: "docs",
 						},
 					],
 				},
