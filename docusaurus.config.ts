@@ -46,7 +46,7 @@ const config: Config = {
 					// routeBasePath: "/",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/bahEmilia/coursEPSI/blob/main",
+					editUrl: "https://github.com/bahAilime/coursEPSI/blob/main",
 				},
 				// blog: false,
 				blog: {
@@ -93,7 +93,7 @@ const config: Config = {
 				//   position: "left",
 				// },
 				{
-					href: "https://github.com/bahAilime/EPSIcours",
+					href: "https://github.com/bahAilime/coursEPSI",
 					position: "right",
 					className: "header-github-link",
 					"aria-label": "GitHub repository",
