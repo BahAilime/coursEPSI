@@ -4,7 +4,7 @@ title: 🎉 Événements
 hide_title: false
 ---
 
-## [Salon de la Data et de L'IA 2024](./salon_de_la_data/)
+## [Salon de la Data et de L'IA 2024](./salon_de_la_data/index.md)
 
 ![salon de la data](https://img.swapcard.com/?u=https%3A%2F%2Fcdn-api.swapcard.com%2Fpublic%2Fimages%2F69397431aa1f4906b70adde50487c9f2.png&q=0.8&m=fit&h=720)
 
