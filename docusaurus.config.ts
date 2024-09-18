@@ -69,8 +69,8 @@ const config: Config = {
 		navbar: {
 			title: "Cours EPSI B3 Data/IA",
 			logo: {
-				src: "img/logo.png",
-				srcDark: "img/logo.png",
+				src: "/img/logo.png",
+				srcDark: "/img/logo.png",
 			},
 			items: [
 				// {
