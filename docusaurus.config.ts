@@ -3,6 +3,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 import { themes as prismThemes } from "prism-react-renderer";
 
+require('dotenv').config();
+
 const config: Config = {
 	title: "Cours EPSI B3 Data/IA",
 	tagline: "(selon les notes d'Emilia)",
@@ -160,7 +162,17 @@ const config: Config = {
 			darkTheme: prismThemes.dracula,
 		},
 	} satisfies Preset.ThemeConfig,
-	plugins: [require.resolve("docusaurus-lunr-search")],
+	plugins: [
+		require.resolve("docusaurus-lunr-search"),
+		[
+			'@docusaurus/plugin-google-gtag',
+			{
+			  trackingID: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+			  anonymizeIP: true,
+			},
+		  ],
+	
+	],
 };
 
 export default config;
