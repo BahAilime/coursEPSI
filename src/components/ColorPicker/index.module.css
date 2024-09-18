@@ -1,0 +1,45 @@
+.color_picker_container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+.color_picker_toggle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.color_picker_panel {
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    background-color: var(--ifm-background-color);
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.color_picker_panel label {
+    font-weight: bold;
+}
+
+.color_picker_panel input[type="range"] {
+    width: 200px;
+}
+
+.theme_toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
