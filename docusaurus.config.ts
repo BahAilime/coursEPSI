@@ -118,42 +118,21 @@ const config: Config = {
 				{
 					title: "Cours",
 					items: [
-						{
-							label: "11111",
-							to: "docs",
-						},
-						{
-							label: "aaaa",
-							to: "docs",
-						},
 					],
 				},
 				{
-					title: "Cours",
+					title: "Salon de la data",
 					items: [
 						{
-							label: "11111",
-							to: "docs",
+							label: "Engorgement des Urgences",
+							to: "docs/events/salon_de_la_data/donnee_publique_en_2024",
 						},
 						{
-							label: "aaaa",
-							to: "docs",
+							label: "Donnée publique en 2024",
+							to: "docs/events/salon_de_la_data/engorgement_des_urgences",
 						},
 					],
-				},
-				{
-					title: "Cours",
-					items: [
-						{
-							label: "11111",
-							to: "docs",
-						},
-						{
-							label: "aaaa",
-							to: "docs",
-						},
-					],
-				},
+				}
 			],
 			copyright: `Copyright © ${new Date().getFullYear()} Emilia Beguin`,
 		},
