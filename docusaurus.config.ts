@@ -3,7 +3,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 import { themes as prismThemes } from "prism-react-renderer";
 
-require('dotenv').config();
+require('dotenv').config({path: ".env.local"});
 
 const config: Config = {
 	title: "Cours EPSI B3 Data/IA",
@@ -143,13 +143,13 @@ const config: Config = {
 	} satisfies Preset.ThemeConfig,
 	plugins: [
 		require.resolve("docusaurus-lunr-search"),
-		[
-			'@docusaurus/plugin-google-gtag',
-			{
-			  trackingID: process.env.GTAG,
-			  anonymizeIP: true,
-			},
-		  ],
+		// [
+		// 	'@docusaurus/plugin-google-gtag',
+		// 	{
+		// 	  trackingID: process.env.GTAG,
+		// 	  anonymizeIP: true,
+		// 	},
+		//   ],
 	
 	],
 };
