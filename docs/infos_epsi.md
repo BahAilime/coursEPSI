@@ -29,7 +29,7 @@ En cas de retard, passer par le bureau 208 pour justifier son retard
 
 :::
 
-- **Email admission : [administratif@nantes-epsi.fr](administratif@nantes-epsi.fr)**
+- **Email admission : [administratif@nantes-epsi.fr](mailto:administratif@nantes-epsi.fr)**
 - **Deyria Sarar** : Assistante polyvalente  
 - **Agnès Dusser** : Responsable administrative  
 - **Lise Moreau** : Assistante polyvalente  
@@ -37,7 +37,7 @@ En cas de retard, passer par le bureau 208 pour justifier son retard
 
 ### Service pédagogique (Bureau 207)
 
-- **Email admission : [pedagogie@campus-cd.com](pedagogie@campus-cd.com)**
+- **Email admission : [pedagogie@campus-cd.com](mailto:pedagogie@campus-cd.com)**
 - **Clémence Caribaux** : Responsable pédagogique EPSI/WIS  
 - **Christophe Gillereau** : Coach MyDIL et référent handicap
 - **Anne-Lise Gerard** :Coordinatrice pédagogique EPSI - I1 I2
@@ -48,13 +48,13 @@ En cas de retard, passer par le bureau 208 pour justifier son retard
 
 #### Service admission
 
-- **Email admission : [admissions.nantes@ecoles-epsi.fr](admissions.nantes@ecoles-epsi.fr)**
+- **Email admission : [admissions.nantes@ecoles-epsi.fr](mailto:admissions.nantes@ecoles-epsi.fr)**
 - **Hélène Roulier** : Responsable du Développement
 - **Mathilde David** : Chargée des admissions
 - **Vincent Petigas** : Chargée des admissions
 
 #### Service relation entreprise
-- **Email relation entreprise : [relationentreprisenantes@ecoles-epsi.fr](relationentreprisenantes@ecoles-epsi.fr)**
+- **Email relation entreprise : [relationentreprisenantes@ecoles-epsi.fr](mailto:relationentreprisenantes@ecoles-epsi.fr)**
 - **Agathe Bezille** : Chargée des relations entreprises
 - **Elodie Etchebarne** : Chargée des relations entreprises
 - **Alexandra Neau** : Chargée des relations entreprises
