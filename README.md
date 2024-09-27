@@ -1,6 +1,10 @@
 # Website
 
-Ce site à été créé avec [Docusaurus](https://docusaurus.io/) pour gérer les cours de ma classe de B3 Dev DATA/IA à l'EPSI de Nantes
+Ce site à été créé par [Émilia Beguin](https://github.com/BahAilime/) avec [Docusaurus](https://docusaurus.io/) pour gérer les cours de ma classe de B3 Dev DATA/IA à [l'EPSI de Nantes](https://www.epsi.fr/campus/campus-de-nantes/)
+
+![preview of the website](static/img/preview.png)
+
+![second preview of the website](image.png)
 
 ## Ajouter des cours
 
