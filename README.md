@@ -1,41 +1,24 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Ce site à été créé avec [Docusaurus](https://docusaurus.io/) pour gérer les cours de ma classe de B3 Dev DATA/IA à l'EPSI de Nantes
 
-## Installation
+## Ajouter des cours
 
-```sh
-npm ci
-```
+1. **Forkez** ce repo et **clonez-le** sur votre machine :
+   ```bash
+   git clone https://github.com/[nom d utilisateur]/coursEPSI.git
+   ```
 
-## Local Development
+2. **Installez les dépendances** avec :
+   ```bash
+   npm ci
+   ```
 
-```sh
-npm start
-```
+3. **Ajoutez vos cours** dans le dossier `cours` sous format `.md`, `.mdx`, ou `.jsx`.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```sh
-npm run build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```sh
-USE_SSH=true npm run deploy
-```
-
-Not using SSH:
-
-```sh
-GIT_USER=<Your GitHub username> npm run deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+5. **Testez localement** :
+   ```bash
+   npm start
+   ```
+   
+6. **Créez une pull request** pour proposer vos modifications et enrichir les cours communs.
