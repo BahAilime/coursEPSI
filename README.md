@@ -4,7 +4,7 @@ Ce site à été créé par [Émilia Beguin](https://github.com/BahAilime/) avec
 
 ![preview of the website](static/img/preview.png)
 
-![second preview of the website](image.png)
+![second preview of the website](static/img/preview2.png)
 
 ## Ajouter des cours
 
