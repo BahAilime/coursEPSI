@@ -14,7 +14,7 @@ Ce site à été créé avec [Docusaurus](https://docusaurus.io/) pour gérer le
    npm ci
    ```
 
-3. **Ajoutez vos cours** dans le dossier `cours` sous format `.md`, `.mdx`, ou `.jsx`.
+3. **Ajoutez vos cours** dans le dossier [cours](https://github.com/BahAilime/coursEPSI/tree/main/docs/cours) sous format `.md`, `.mdx`, ou `.jsx`.
 
 5. **Testez localement** :
    ```bash
