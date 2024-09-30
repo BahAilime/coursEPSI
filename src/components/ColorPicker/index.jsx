@@ -1,9 +1,22 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import style from './index.module.css';
 
 const ColorPicker = () => {
     const [hue, setHue] = useState(0);
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf("hue=") == 0) setHue(c.substring("hue=".length,c.length));
+        }
+    }, []);
+
+    useEffect(() => {
+        document.documentElement.style.setProperty(`--primary-hue`, hue+"deg");
+    }, [hue]);
 
     return (
         <div className={style.color_picker_container}>
@@ -16,7 +29,6 @@ const ColorPicker = () => {
         </button>
         {isOpen && (
             <div className={style.color_picker_panel}>
-            <label htmlFor={style.hue_slider}>Hue</label>
             <input
                 id="hue-slider"
                 type="range"
@@ -25,7 +37,11 @@ const ColorPicker = () => {
                 value={hue}
                 onChange={(e) => {
                     setHue(parseInt(e.target.value));
-                    document.documentElement.style.setProperty(`--primary-hue`, e.target.value+"deg");
+                    let expires = "";
+                    let date = new Date();
+                    date.setTime(date.getTime() + (999*24*60*60*1000));
+                    expires = "; expires=" + date.toUTCString();
+                    document.cookie = "hue" + "=" + (e.target.value || "")  + expires + "; path=/";
                 }}
             />
             </div>
