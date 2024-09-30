@@ -5,13 +5,13 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import Timeline from '@site/src/components/Timeline';
 
-import logo from '@site/static/img/logo.png';
 import Learing from '@site/static/icons/360Learning.png'
 import Teams from '@site/static/icons/teams.png'
 import Outlook from '@site/static/icons/outlook.png'
 import Edusign from '@site/static/icons/edusign.png'
 
 import styles from './index.module.css';
+import Calendar from '@site/src/components/Agenda';
 
 function generateWeeklySteps(numberOfWeeks = 10, studyWeeks = []) {
   const steps = [];
@@ -103,6 +103,8 @@ export default function Home() {
         <div className='flex justify-center py-3 pb-14'>
           <Timeline steps={generateWeeklySteps(8, [39, 40, 43, 46, 49, 51, 3, 6, 9, 12, 15, 18, 20, 23, 27, 28, 37])}/>
         </div>
+        <Heading as="h1" className='mt-9'>Prochain cours</Heading>
+        <Calendar/>
       </div>
     </Layout>
   );
