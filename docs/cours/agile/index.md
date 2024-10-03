@@ -35,7 +35,9 @@ Les tests et la CI permettent de corriger les bugs rapidement → meilleure qual
 
 ## Les Quatre Valeurs du Manifeste Agile 
 
-> [!DANGER] Dans le contrôle surprise de vendredi
+:::danger[Dans le contrôle surprise de vendredi !!]
+
+:::
 
 **Individus et interactions**
 Personnes et interactions > processus et outils 
@@ -52,8 +54,7 @@ Pas tout accepter pour autant → contrepartie en argent, deadline ou suppr d’
 Citation Sun Tzu
 ## Différentes méthodologie agile
 
-- [[Kanban]] (Une méthode de gestion de flux de travail qui visualise les tâches en cours et les tâches à venir, permettant une meilleure organisation et priorisation)
-- [[Extreme Prgramming]] (Une méthode de développement logiciel agile qui met l'accent sur la simplicité, les tests et la communication ouverte)
-- [[Lean Software Development]] (Lean Software Development Une méthode de développement logiciel agile qui vise à éliminer le gaspillage et à maximiser la valeur pour le client)
-- [[Scrum]] (Une méthode de gestion de projet itérative et incrémentale, axée sur la collaboration et l'adaptation)
-
+- [Kanban](./Kanban.md) (Une méthode de gestion de flux de travail qui visualise les tâches en cours et les tâches à venir, permettant une meilleure organisation et priorisation)
+- [Extreme Prgramming](./Extreme%20Prgramming.md) (Une méthode de développement logiciel agile qui met l'accent sur la simplicité, les tests et la communication ouverte)
+- [Lean Software Development](./Lean%20Software%20Development.md) (Lean Software Development Une méthode de développement logiciel agile qui vise à éliminer le gaspillage et à maximiser la valeur pour le client)
+- [Scrum](./scrum/index.md) (Une méthode de gestion de projet itérative et incrémentale, axée sur la collaboration et l'adaptation)

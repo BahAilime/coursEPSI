@@ -20,8 +20,9 @@ update: 2024-10-02T15:08
 - **Courage** → Le courage est essentiel pour prendre des décisions difficiles et pour s'engager à faire ce qui est juste, même si cela implique de prendre des risques. En Scrum, les équipes doivent dire la vérité, prendre des décisions difficiles et s'engager à faire ce qui est nécessaire pour réussir. Engagement L'engagement est essentiel pour la réussite du sprint. Les équipes Scrum doivent s'engager à atteindre les objectifs du sprint et à fournir leur meilleur travail.
 
 
->[!danger] Évaluation surprise
-> LES PILLIERS DANS LE SURPRISE
+:::danger[Évaluation surprise]
+LES PILLIERS DANS LE SURPRISE
+:::
 
 ## Les Piliers de Scrum
 
@@ -71,8 +72,6 @@ Description d’une fonctionnalité
 
 ## DoR (definition of Ready)
 
-^260573
-
 6 critères
 
 1. Désirable (validée par le client par exemple)
@@ -97,6 +96,6 @@ Capacité et vélocité
 
 Une équipe agile est composé de 3 personnes / groupes de persoones:
 
-- Le [[Product Owner]] (Responsable de maximiser la valeur du produit et du travail de l'équipe de développement.)
-- L’[[Équipe de Développement]] (Équipe qui réalise le travail de livraison d'un incrément potentiellement livrable à chaque sprint.)
-- Le [[Scrum Master]] (garant du processus Scrum, il aide l'équipe à comprendre et à appliquer la théorie et les pratiques Scrum)
+- Le [Product Owner](./Product%20Owner.md) (Responsable de maximiser la valeur du produit et du travail de l'équipe de développement.)
+- L’[Équipe de Développement](./Équipe%20de%20Développement.md) (Équipe qui réalise le travail de livraison d'un incrément potentiellement livrable à chaque sprint.)
+- Le [Scrum Master](./Scrum%20Master.md) (garant du processus Scrum, il aide l'équipe à comprendre et à appliquer la théorie et les pratiques Scrum)
