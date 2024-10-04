@@ -19,11 +19,6 @@ update: 2024-10-02T15:08
 - **Respect** → Le respect est crucial pour une collaboration fructueuse en Scrum. Les membres de l'équipe doivent se respecter mutuellement et faire confiance à leurs compétences et à leurs décisions.
 - **Courage** → Le courage est essentiel pour prendre des décisions difficiles et pour s'engager à faire ce qui est juste, même si cela implique de prendre des risques. En Scrum, les équipes doivent dire la vérité, prendre des décisions difficiles et s'engager à faire ce qui est nécessaire pour réussir. Engagement L'engagement est essentiel pour la réussite du sprint. Les équipes Scrum doivent s'engager à atteindre les objectifs du sprint et à fournir leur meilleur travail.
 
-
-:::danger[Évaluation surprise]
-LES PILLIERS DANS LE SURPRISE
-:::
-
 ## Les Piliers de Scrum
 
 **Inspection**
@@ -91,6 +86,13 @@ Sprint 0: mise en place des outils
 
 Capacité et vélocité
 
+## Technique pour aider à la création des stories
+
+- Le storymapping
+- Le mindmapping
+
+## Capacité et vélocité en Scrum
+Moyenne des autres sprint
 
 ## Composition d’une équipe agile
 

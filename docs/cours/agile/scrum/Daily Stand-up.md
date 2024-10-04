@@ -13,3 +13,7 @@ Le Daily Stand-up est une réunion brève et quotidienne où chaque membre de l'
 - Que ferez-vous aujourd'hui ?
 - Quels obstacles rencontrez-vous ?
 :::
+
+Le scrum master prends des notes sur les bloquages et s'assure que personne ne monopolise la conversasion.
+
+On montre le [Graphique de Burndown](./Graphique%20de%20Burndown.md)

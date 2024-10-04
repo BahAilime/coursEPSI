@@ -35,10 +35,6 @@ Les tests et la CI permettent de corriger les bugs rapidement → meilleure qual
 
 ## Les Quatre Valeurs du Manifeste Agile 
 
-:::danger[Dans le contrôle surprise de vendredi !!]
-
-:::
-
 **Individus et interactions**
 Personnes et interactions > processus et outils 
 
