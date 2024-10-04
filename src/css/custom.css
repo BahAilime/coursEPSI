@@ -72,13 +72,14 @@ code {
 .theme-code-block .token {
 	font-family: "IBM Plex Mono", monospace;
 }
-[data-theme="light"] .theme-code-block pre {
+[data-theme="light"] .theme-code-block pre, .theme-doc-breadcrumbs {
 	background-color: #fafafa;
 }
 
 /* hide breadcrumbs from top of posts */
 .theme-doc-breadcrumbs {
-	display: none;
+	border-radius: 50px;
+	padding: 5px;
 }
 
 .theme-doc-sidebar-menu.menu__list {
