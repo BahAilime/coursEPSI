@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 0
 sidebar_label: Agile
 title: Méthodologie Agile
 hide_title: false
