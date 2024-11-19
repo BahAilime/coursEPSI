@@ -12,6 +12,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
 
+.hidden {
+	display: none !important;
+}
+
 /* You can override the default Infima variables here. */
 :root {
 	--primary-hue: 0deg;
