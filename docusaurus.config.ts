@@ -75,12 +75,22 @@ const config: Config = {
 				srcDark: "/img/logo.png",
 			},
 			items: [
-				// {
-				// 	type: "docSidebar",
-				// 	position: "left",
-				// 	sidebarId: "pipelines",
-				// 	label: "Pipelines",
-				// },
+				{
+					href: "/docs/cours",
+					position: "left",
+					label: "Cours",
+				},
+				{
+					href: "/docs/events",
+					position: "left",
+					label: "Évenements",
+				},
+
+				{
+					href: "/pdf/01_IA_MachinelearningR.pdf",
+					position: "left",
+					label: "COOL PDF",
+				},
 
 				// {
 				//   type: "docSidebar",
@@ -118,6 +128,22 @@ const config: Config = {
 				{
 					title: "Cours",
 					items: [
+						{
+							label: "Agile",
+							to: "docs/cours/agile",
+						},
+						{
+							label: "NoSQL",
+							to: "docs/cours/NoSql",
+						},
+						{
+							label: "ML et IA",
+							to: "docs/cours/ML%20et%20IA",
+						},
+						{
+							label: "Langage R",
+							to: "docs/cours/Langage%20R",
+						},
 					],
 				},
 				{
@@ -149,6 +175,26 @@ const config: Config = {
 		// 	{
 		// 	  trackingID: process.env.GTAG,
 		// 	  anonymizeIP: true,
+		// 	},
+		//   ],
+		// [
+		// 	'@docusaurus/plugin-content-docs',
+		// 	{
+		// 	  id: 'cours',
+		// 	  path: 'cours',
+		// 	  routeBasePath: 'cours',
+		// 	//   sidebarPath: './sidebarsProduct.js',
+		// 	  // ... other options
+		// 	},
+		//   ],
+		//   [
+		// 	'@docusaurus/plugin-content-docs',
+		// 	{
+		// 	  id: 'autre',
+		// 	  path: 'autre',
+		// 	  routeBasePath: 'autre',
+		// 	//   sidebarPath: './sidebarsCommunity.js',
+		// 	  // ... other options
 		// 	},
 		//   ],
 	
