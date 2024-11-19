@@ -137,6 +137,7 @@ const config: Config = {
 			copyright: `Copyright © ${new Date().getFullYear()} Emilia Beguin`,
 		},
 		prism: {
+			additionalLanguages: ['r'],
 			theme: prismThemes.github,
 			darkTheme: prismThemes.dracula,
 		},
