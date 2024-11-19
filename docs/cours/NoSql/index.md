@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: No SQL
+sidebar_label: 🏃‍➡️ No SQL
 hide_title: true
 ---
 

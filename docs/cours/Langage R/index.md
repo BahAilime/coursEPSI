@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-sidebar_label: Language R
+sidebar_label: 📈 Language R
 hide_title: true
 ---
 

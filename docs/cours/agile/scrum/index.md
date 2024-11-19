@@ -1,6 +1,5 @@
 ---
-date: 2024-10-01T17:10
-update: 2024-10-02T15:08
+sidebar_label: 🔁 Scrum
 ---
 # Scrum
 

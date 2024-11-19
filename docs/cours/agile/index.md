@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-sidebar_label: Agile
+sidebar_label: 🗺️ Agile
 title: Méthodologie Agile
 hide_title: false
 ---
