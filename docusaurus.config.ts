@@ -86,12 +86,6 @@ const config: Config = {
 					label: "Évenements",
 				},
 
-				{
-					href: "/pdf/01_IA_MachinelearningR.pdf",
-					position: "left",
-					label: "COOL PDF",
-				},
-
 				// {
 				//   type: "docSidebar",
 				//   sidebarId: "blog",
