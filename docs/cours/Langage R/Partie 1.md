@@ -6,6 +6,9 @@ hide_title: true
 
 # Partie 1 : Introduction à R
 
+
+[Dossier R de Joyce](/R/DéveloppementR-Joyce.zip)
+
 ## Chargement des bibliothèques nécessaires
 
 :::tip[Bibliotèques utilisées dans ce cours (toutes les parties)]
@@ -21,6 +24,8 @@ if(!require(XXX)){
 ```
 
 ## Vecteurs
+
+
 
 ```R
 x = c(1, 2, 3, 4, 5) # creation d'un vecteur
