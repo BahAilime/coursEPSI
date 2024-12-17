@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: 🎉 Événements
 hide_title: false
+sidebar_class_name: hidden
 ---
 
 ## [Salon de la Data et de L'IA 2024](./salon_de_la_data/index.md)
